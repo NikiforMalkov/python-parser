@@ -1,0 +1,31 @@
+
+						$insert = array(
+							'link' => $lnk,
+							'description' => $text,
+							'img' => $i['node']['thumbnail_src'],
+							'title' => $i['node']['edge_media_to_caption']['edges'][0]['node']['text'],
+							'date' => $time_create,
+							'rss_id' => $r['id'],
+						);
+
+<img
+alt="На изображении может находиться: автомобиль и на улице"
+class="FFVAD"
+decoding="auto"
+sizes="293px"
+srcset="
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/c240.0.959.959a/s150x150/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&amp;_nc_cat=109&amp;oh=152476d603dd90eaa37ea05b94f3268a&amp;oe=5E7D9CEE 150w
+,
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/c240.0.959.959a/s240x240/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&amp;_nc_cat=109&amp;oh=0ac0afe8c1303cd437a129bf83de7b76&amp;oe=5E74C9A4 240w
+,
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/c240.0.959.959a/s320x320/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&amp;_nc_cat=109&amp;oh=730d8d62fb87ac24b327bf0a80e6e5d0&amp;oe=5E8ADB1E 320w
+,
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/c240.0.959.959a/s480x480/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&_nc_cat=109&oh=60b6e1fcea7003f3d5c277087bb06be5&oe=5E72F444
+,
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c240.0.959.959a/s640x640/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&amp;_nc_cat=109&amp;oh=9366358b1dcd6a9797ac028093e98efb&amp;oe=5E883386 640w
+"
+src="
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/c240.0.959.959a/s640x640/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&amp;_nc_cat=109&amp;oh=9366358b1dcd6a9797ac028093e98efb&amp;oe=5E883386
+" style="object-fit: cover;">
+
+https://instagram.fkgf1-1.fna.fbcdn.net/v/t51.2885-15/e35/c240.0.959.959a/s480x480/77394083_444580933102833_3798641118418181815_n.jpg?_nc_ht=instagram.fkgf1-1.fna.fbcdn.net&_nc_cat=109&oh=60b6e1fcea7003f3d5c277087bb06be5&oe=5E72F444
