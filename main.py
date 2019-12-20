@@ -5,14 +5,9 @@ from selenium.webdriver.common.by import By
 from src.postPdo import PostPdo
 from src.database import session
 from src.parser import Parser
+from src.linkPdo import LinkPdo
 
 postPdo = PostPdo(session)
-
-urlCollection = [
-    "https://www.instagram.com/failcrew/",
-    "https://www.instagram.com/drift_craft/",
-    "https://www.instagram.com/rds_gp/",
-]
 
 selectorCollection = {
     "loginButton": "#react-root > section > main > article > div.rgFsT > div:nth-child(2) > p > a",
@@ -38,6 +33,11 @@ selectorCollection = {
 }
 
 webDriver = webdriver.Chrome()
+link = LinkPdo(session)
+linkCollection = link.get_all()
+urlCollection = []
+for targetLink in linkCollection:
+    urlCollection.append(targetLink.link)
 post = PostPdo(session)
 parserEntity = Parser(webDriver, selectorCollection, post)
 parserEntity.login("login", "password")
