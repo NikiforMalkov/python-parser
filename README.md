@@ -1,3 +1,4 @@
+Кодировка таблиц должна быть utf8mb4 (mysql)
 Установить sqlalchemy
 pip install sqlalchemy
 При необходимости установить драйвера(Например для mysql)
