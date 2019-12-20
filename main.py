@@ -40,7 +40,7 @@ selectorCollection = {
 webDriver = webdriver.Chrome()
 post = PostPdo(session)
 parserEntity = Parser(webDriver, selectorCollection, post)
-parserEntity.login("jar0fgreed", "nnm26957nnm")
+parserEntity.login("login", "password")
 for url in urlCollection:
     parserEntity.get_post_row(url)
 
