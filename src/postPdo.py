@@ -1,4 +1,4 @@
-from post import Post
+from src.post import Post
 
 
 class PostPdo(object):

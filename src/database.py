@@ -2,10 +2,10 @@ from sqlalchemy import create_engine
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey, Text
 from sqlalchemy.orm import mapper
 from sqlalchemy.orm import sessionmaker
-from post import Post
-from postPdo import PostPdo
+from src.post import Post
+from src.postPdo import PostPdo
 
-
+# TODO: нормальное ООП
 # пример соединения 'dialect+driver://user:pass@host:port/db'
 engine = create_engine('mysql+pymysql://root:@localhost/test', echo=True)
 
